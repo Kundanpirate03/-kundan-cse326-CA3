@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #eaebee;
+    height: 14vh;
+    color: rgb(197, 101, 101);
+
+
+}
+header div img{
+    width: 30px;
+    border-radius: 50%;
+}
+.h1{
+    font-size: large ; 
+    font-family: "LXGW WenKai Mono TC", monospace;
+}
+
+header nav ul a {
+    padding: 0px 33px;
+    font-family: "Nanum Gothic", sans-serif;
+    color: rgb(197, 101, 101);
+
+}
+header nav ul a:hover {
+    color: red;
+    font-weight:bold;
+}
+header nav{
+    height: 20px;
+}
+.searchbar{
+    display: inline ;
+}
+.searchbox{margin: 4px 5px 0px 10px;
+    display: inline;
+    width:80vw ;
+    height: 20px;
+    border-radius: 5px;
+}
+.Search{
+    padding: 2px;
+    background-color: #811023;
+    color:white;
+    border-color: aliceblue;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 100
+    ;
+}
+
+
+
+
+.container {
+    min-height: calc(100vh - 14vh - 10vh);
+}
+
+footer {
+    background-color: #eaebee;
+    color: rgb(197, 101, 101);
+    height: 10vh;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    position: sticky;
+}
+
